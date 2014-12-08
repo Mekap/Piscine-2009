@@ -1,0 +1,29 @@
+
+01)Écrire une fonction qui échange le contenu des deux pointeurs sur
+   entiers. Ces deux pointeurs sont les paramètres de cette fonction.
+ Elle devra être prototypée de la façon suivante :
+void	my_swap(int *a, int *b);
+
+02)Écrire une fonction qui affiche un a un les caractères d'une chaine à
+  l'écran. L'adresse du premier caractère de la chaine est contenue
+  dans le pointeur passé en paramètre à la fonction.
+ Elle devra être prototypée de la façon suivante :
+void     my_putstr(char *str);
+
+03)Écrire une fonction qui compte le nombre de caractères dans une
+   chaîne de caractères et qui retourne le nombre trouve.
+   Elle devra être prototypée de la façon suivante :
+	int my_strlen(char *str);
+
+04)Écrire une fonction qui renvoie un nombre. Ce nombre est
+   connu sous la forme d'une chaine de caractère passé en
+   parametre (Ex: "842") et doit etre transformé en int.
+  On considèrera que ce nombre est exprimé en base 10 ("0123456789").
+ La fonction devra être prototypée de la façon suivante :
+int	my_getnbr(char *str);
+
+05)Écrire une fonction qui trie un tableau d'entiers, par ordre
+  croissant. Les parametres sont : un pointeur sur entier, le nombre
+  d'entiers dans le tableau.
+ Elle devra être prototypée de la façon suivante :
+void	my_sort_int_tab(int *tab, int size);
