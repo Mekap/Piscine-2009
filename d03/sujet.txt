@@ -1,0 +1,66 @@
+
+Exo 01 : my_aff_alpha
+
+Écrire une fonction qui affiche l’alphabet en minuscule sur une seule ligne, dans
+l’ordre croissant à partir de la lettre ’a’.
+
+Elle devra être prototypée de la façon suivante :
+void  my_aff_alpha();
+
+Exo 02 : my_aff_revalpha
+
+Écrire une fonction qui affiche l’alphabet en minuscule sur une seule ligne, dans
+l’ordre décroissant à partir de la lettre ’z’.
+void my_aff_revalpha();
+
+Exo 03 : my_aff_chiffre
+
+Écrire une fonction qui affiche tous les chiffres sur une seule ligne dans l’ordre
+croissant.
+void my_aff_chiffre();
+
+Exo 04 : my_isneg
+
+Écrire une fonction qui affiche ’N’ ou ’P’ suivant le signe de l’entier passé en
+paramètre. Si n est négatif alors afficher ’N’. Si n est positif ou nul alors afficher
+’P’.
+
+int my_isneg(int n);
+
+Exo 05 : my_aff_comb
+
+Écrire une fonction qui affiche dans l’ordre croissant toutes les différentes combi-
+naisons de trois chiffres différents dans l’ordre croissant.
+
+Cela donne quelque chose comme ça :
+“012, 013, 014, 015, 016, 017, 018, 019, 023, ..., 789”
+
+
+void my_aff_comb();
+
+Exo 06 : my_aff_comb2
+
+Écrire une fonction qui affiche toutes les différentes combinaisons de deux nombres
+entre 0 et 99, dans l’ordre croissant.
+
+Cela donne quelque chose comme ça :
+“00 01, 00 02, 00 03, 00 04, 00 05, ..., 01 99, 02 03, ..., 98 99”
+
+Elle devra être prototypée de la façon suivante :
+
+void my_aff_comb2();
+
+
+Exo 07 : my_put_nbr
+
+Écrire une fonction qui affiche un nombre passé en paramètre. La fonction devra
+être capable d’afficher la totalité des valeurs possibles dans une variable de type
+int
+
+Elle devra être prototypée de la façon suivante :
+
+void my_put_nbr(int nb);
+
+my_put_nbr(2147483647) affiche “2147483647”
+
+my_put_nbr(-2147483648) affiche “-2147483648”
