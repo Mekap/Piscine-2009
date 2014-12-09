@@ -2,7 +2,7 @@
 ** By gaya Bernou
 ** affiche toutes les lettres de l'alphabet dans l'ordre décroissant
 */
-void my_aff_alpha() {
+void my_aff_revalpha() {
     char a = 'z';
     while (a >= 'a')
     {
