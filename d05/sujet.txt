@@ -1,0 +1,82 @@
+1 - my_factorielle_it
+
+Écrire une fonction itérative qui renvoie un nombre. Ce nombre est le résultat de
+l’opération factorielle à partir du nombre passé en parametre.
+
+En cas d’erreur, la fonction devra retourner 0.
+Elle devra être prototypée de la façon suivante :
+int my_factorielle_it(int nb);
+
+Vous devez gérer si la factorielle du nombre fait un overflow (qui est une erreur).
+Votre fonction doit donner son résultat en moins de 2 secondes
+
+2 - my_factorielle_rec
+
+Écrire une fonction récursive qui renvoie la factorielle du nombre passé en para-
+mètre.
+
+Elle devra être prototypée de la façon suivante :
+int my_factorielle_rec(int nb);
+
+3 - my_power_it
+
+Écrire une fonction itérative qui renvoie la puissance d’un nombre.
+Elle devra être prototypée de la façon suivante :
+int my_power_it(int nb,int power);
+
+4 - my_power_rec
+
+Écrire une fonction récursive qui renvoie la puissance d’un nombre.
+Elle devra être prototypée de la façon suivante :
+int my_power_rec(int nb, int power);
+
+5 - Les 8 reines 1
+
+Le but de ce jeu est de placer 8 reines sur un échiquier sans qu’elles ne puissent
+s’atteindre en un seul coup.
+
+Un échiquier, c’est un damier de 8x8 cases.
+Une reine peut jouer en ligne, en colone et en diagonale.
+Bien entendu, on utilisera la recursivité pour résoudre ce problème.
+Écrire une fonction qui renvoie le nombre de possibilités de placer les 8 reines sur
+l’échiquier sans qu’elles ne puissent s’atteindre.
+Elle devra être prototypée de la façon suivante :
+int my_8r1();
+
+6 - Les 8 reines 2
+
+Écrire une fonction qui affiche toutes les possibilités de placer les 8 reines sur
+l’échiquier sans qu’elles ne puissent s’atteindre.
+
+La recursivité devra être utilisée.
+Elle devra être prototypée de la façon suivante :
+int my_8r2();
+
+L’affichage se fera de la façon suivante (les résultats ci-dessous sont faux, ils ne
+servent qu’à illustrer l’affichage) :
+1 15346872
+2 13564287
+3 ...
+
+Il y a un saut de ligne après la dernière solution du problème des 8 reines.
+Votre fonction doit donner son résultat en moins de 2 secondes
+
+7 - my_square_root
+
+Écrire une fonction qui renvoie la racine carrée entière d’un nombre si elle existe,
+0 si la racine carrée n’est pas entière.
+
+Elle devra être prototypée de la façon suivante :
+int my_square_root(int nb);
+
+Votre fonction doit donner son résultat en moins de 2 secondes
+
+8 - my_is_prime
+
+Écrire une fonction qui renvoie 1 si le nombre est premier et 0 si le nombre ne l’est
+pas.
+
+Elle devra être prototypée de la façon suivante :
+
+int my_is_prime(int nb);
+0 et 1 ne sont pas premiers
